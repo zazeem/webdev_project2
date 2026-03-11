@@ -54,6 +54,7 @@ nav a {
 }
 .gallery {
   background-image: url("../media/banner.jpg");
+  font-family: "Segoe Ui", sans-serif;
   margin: 5%;
   display: inline-block;
   width: 90%;
