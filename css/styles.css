@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 body {
+  background-image: url("../media/outerbackground.jpg");
+  background-repeat: repeat;
   background-color: gray;
   text-align: center;
-  background-repeat: no-repeat;
   font-family: "Arsenal", sans-serif;
   font-weight: bold;
   color: #e6c76b;
   line-height: 1.6;
 }
 
-#page-wrapper {
-  background-image: url("../media/background.jpg");
+.homepage-wrapper {
+  background-color: #d92323;
   width: 80%;
-  margin: 0 auto;
+  margin: auto;
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -30,21 +31,53 @@ nav li {
 }
 
 nav a {
+  font-family: "Arsenal", sans-serif;
 	text-decoration: none;
   color: #e6c76b;
 	font-weight: bold;
 	font-size: 18px;
 }
 
+.text{
+  background-image: url("../media/banner.jpg");
+  margin: 5%;
+  display: inline-block;
+  width: 90%;
+  border-radius: 6px;
+	border: 2px solid rgba(0, 0, 0, 0.3);.  
+}
+.intro, .hobbies{
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
 .gallery {
-  text-align: center;
+  background-image: url("../media/banner.jpg");
+  margin: 5%;
+  display: inline-block;
+  width: 90%;
+  border-radius: 6px;
+	border: 2px solid rgba(0, 0, 0, 0.3);. 
 }
 .gallery img {
   display: inline-block;
   text-align: center;
   width: 25%;
 	height: auto;
-	margin: 10px;
+	margin: 1%;
 	border-radius: 6px;
 	border: 3px solid red;
+}
+
+.resume-wrapper {
+  background-color: #d92323;
+  width: 90%;
+  margin: auto;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+.column{
+  width: 50%;
+  float: left;
+  text-align: left;
 }
