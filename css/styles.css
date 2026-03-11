@@ -45,7 +45,7 @@ nav a {
   display: inline-block;
   width: 90%;
   border-radius: 6px;
-	border: 2px solid rgba(0, 0, 0, 0.3);.  
+	border: 2px solid rgba(0, 0, 0, 0.3); 
 }
 .intro, .hobbies{
   width: 50%;
@@ -59,7 +59,7 @@ nav a {
   display: inline-block;
   width: 90%;
   border-radius: 6px;
-	border: 2px solid rgba(0, 0, 0, 0.3);. 
+	border: 2px solid rgba(0, 0, 0, 0.3);
 }
 .gallery img {
   display: inline-block;
@@ -115,12 +115,11 @@ a {
   margin: 5%;
   width: 90%;
   border-radius: 6px;
-	border: 2px solid rgba(0, 0, 0, 0.3);. 
+	border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .images img, .images video{
   display: inline-block;
-  float: center;
   width: 45%;
   margin: 1%;
 	height: auto;
