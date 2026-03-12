@@ -5,7 +5,7 @@ body {
   background-repeat: repeat;
   background-color: gray;
   text-align: center;
-  font-size: 100%;
+  font-size: 120%;
   font-family: "Arsenal", sans-serif;
   font-weight: bold;
   color: #ffffff;
@@ -14,7 +14,7 @@ body {
 
 .homepage-wrapper {
   background-color: #d92323;
-  width: 90%;
+  width: 60%;
   margin: auto;
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.5);
 }
@@ -34,13 +34,19 @@ nav li {
 nav a {
   font-family: "Arsenal", sans-serif;
   text-decoration: none;
-  color: #ffffff;
+  color: #FFBF00;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 120%;
 }
+nav a:hover {
+  color: #FFBF00;
+  font-size: 1.2em;
+  text-shadow: 0 0 5px #A67C00, 0 0 10px #A67C00, 0 0 15px #A67C00;
 
+}
 .text{
   background-image: url("../media/banner.jpg");
+  font-family: "Segoe Ui", sans-serif;
   margin: 5%;
   display: inline-block;
   width: 90%;
@@ -73,7 +79,7 @@ nav a {
 
 .resume-wrapper {
   background-color: #d92323;
-  width: 90%;
+  width: 60%;
   margin: auto;
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
@@ -104,7 +110,7 @@ a {
 
 .portfolio-wrapper {
   background-color: #d92323;
-  width: 90%;
+  width: 60%;
   margin: auto;
   box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.5);
 }
